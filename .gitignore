@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Models and checkpoints
+ckpts/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Caches
+.cache/
+huggingface/
+wandb/
+
+# Generated outputs
+outputs/
+results/generated/
+results/raw/
+
+# Large datasets
+data/
+datasets/
+
+# OS files
+.DS_Store
+Thumbs.db

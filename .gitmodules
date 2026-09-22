@@ -1,0 +1,7 @@
+[submodule "id-pose"]
+	path = id-pose
+	url = https://github.com/PrunedNeuron/id-pose.git
+	branch = experiment/low-vram
+[submodule "EscherNet"]
+	path = EscherNet
+	url = https://github.com/PrunedNeuron/EscherNet.git
