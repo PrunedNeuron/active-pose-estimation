@@ -1,0 +1,54 @@
+{
+  "status": "success",
+  "model": "kxic/eschernet-6dof",
+  "reference_view": 0,
+  "target_views": [
+    1,
+    8,
+    16,
+    23
+  ],
+  "resolution": 256,
+  "steps": 30,
+  "guidance_scale": 3.0,
+  "seed": 42,
+  "joint_inference": true,
+  "T_in": 1,
+  "T_out": 4,
+  "elapsed_seconds": 7.413581861001148,
+  "peak_allocated_vram_gib": 2.0340628623962402,
+  "mean_psnr_db": 12.179963120400732,
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "torch": "2.0.0",
+  "python": "3.9.17",
+  "views": [
+    {
+      "view": 1,
+      "azimuth_deg": 8.750840087247662,
+      "elevation_deg": -50.84045646543003,
+      "radius": 1.5875325202941895,
+      "psnr_db": 9.413929665807478
+    },
+    {
+      "view": 8,
+      "azimuth_deg": 77.11977531060961,
+      "elevation_deg": 45.32394769803151,
+      "radius": 2.042020082473755,
+      "psnr_db": 13.409605426734228
+    },
+    {
+      "view": 16,
+      "azimuth_deg": 55.23471469263663,
+      "elevation_deg": -36.10015071667353,
+      "radius": 2.121525764465332,
+      "psnr_db": 13.717495773965062
+    },
+    {
+      "view": 23,
+      "azimuth_deg": -119.1847087573461,
+      "elevation_deg": 49.01514000261751,
+      "radius": 1.887082815170288,
+      "psnr_db": 12.178821615096162
+    }
+  ]
+}
