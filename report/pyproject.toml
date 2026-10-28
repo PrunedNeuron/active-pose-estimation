@@ -8,7 +8,7 @@ dependencies = []
 dev = [
     "ipykernel>=7.3.0",
     "jupyterlab>=4.6.4",
-    "nbconvert>=7.17.1",
+    "nbconvert>=7.17.2",
     "pandas>=3.0.6",
     "tabulate>=0.10.0",
 ]
